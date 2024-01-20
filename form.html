@@ -1,0 +1,131 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    #a1{
+        display: flex;
+        flex-direction: column;
+    }
+    .first{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    #a2{
+        display: flex;
+        flex-direction: column;
+    }
+    #b1{
+        display: flex;
+        flex-direction: column;
+    }
+    .second{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #b2{
+        display: flex;
+        flex-direction: column;
+    }
+    #c1{
+        display: flex;
+        flex-direction: column;
+    }
+    #c2{
+        display: flex;
+        flex-direction: column;
+    }
+    .four{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    #d1{
+        display: flex;
+        flex-direction: column;
+    }
+    #d2{
+        display: flex;
+        flex-direction: column;
+    }
+    .five{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .third{
+display: flex;
+flex-direction:column;
+    }
+    .read{
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        background-color: gray;
+    }
+    .pure{
+        background-color: whitesmoke;
+        height: 60%;
+        padding: 30px;
+        margin: 59px;
+    }
+    .btn{
+        display: flex;
+        justify-content: end;
+    }
+    button{
+        background-color: red;
+        color: white;
+        transition-property:all;
+        transition-duration: 5s;
+    }
+    h1{
+        text-align: center;
+    }
+    .pure input:focus{
+        outline-color: red;
+    }
+    button:hover{
+        cursor: pointer;
+        background-color: gray;
+    }
+</style>
+</head>
+<body>
+    <div class="read">
+    <div class="pure">
+        <h1>Job Application</h1>
+    <div class="first">
+        <div><label for="" id="a1">First Name</label><input type="text" id="a1" placeholder="Enter First Name"></div>
+       <div> <label for="" id="a2">Last Name</label><input type="text" id="a2" placeholder="Enter Last Name"></div>
+    </div>
+    <div class="second">
+       <div> <label for="" id="b1">Email</label><input type="email"></div>
+        <div><label for="" class="b2">Job Role</label>
+        <select name="job" id="b2">
+            <option value="">Select Job Role</option>
+        <option value="">coder</option>
+<option value="">manager</option>
+        </select>
+        </div>
+    </div>
+    <div class="third">
+    <label for="address">Address</label><input type="text" placeholder="Enter Address">
+    </div>
+    <div class="four">
+        <div><label for="" id="c1">City</label><input type="text" id="c1" placeholder="Enter City Name"></div>
+        <div><label for="" id="c2">Pincode</label><input type="number" id="c2" placeholder="Enter Pincode Here">></div>
+    </div>
+    <div class="five">
+        <div><label for="" id="d1">Date</label><input value="2024-09-11" type="date" id="d1"></div>
+        <div><label for="" id="d2">Upload Your CV</label><input type="file" id="d2"></div>
+    </div>
+    <div class="btn"><button>Apply Now</button></div>
+    </div>
+    </div>
+</body>
+</html>
